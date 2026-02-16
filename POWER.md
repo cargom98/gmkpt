@@ -1,6 +1,6 @@
 ---
 name: Trello
-description: Manage Trello boards, lists, cards, and organizations directly from Kiro
+description: Manage Trello boards, lists, cards, and organizations directly from Kiro. Get your API key at https://trello.com/power-ups/admin/new (free, takes seconds). First use opens browser for OAuth authorization.
 author: cargom98
 keywords:
   - trello
@@ -33,7 +33,22 @@ The Trello Power enables you to interact with Trello's project management featur
 
 ### 1. Get Your Trello API Key
 
-Visit [Trello Power-Ups Admin](https://trello.com/power-ups/admin/new) and create a Power-Up to get your API key. This is free and takes just a few seconds.
+Follow these steps to obtain your API key:
+
+1. Visit [Trello Power-Ups Admin](https://trello.com/power-ups/admin/new)
+2. Log in to your Trello account if prompted
+3. Fill in the Power-Up creation form:
+   - **Power-Up name**: Enter any name (e.g., "Kiro Integration")
+   - **Workspace**: Select any workspace (or leave default)
+   - **Iframe connector URL**: Leave blank or use a placeholder
+   - **Email**: Your email address
+4. Click "Create" or "Generate a new API key"
+5. Select the App you just created from the list
+6. Copy the API key displayed on the screen
+7. In the **Allowed Origins** field, add: `http://localhost:8765`
+8. Save the changes
+
+This is completely free and takes less than a minute. The API key and allowed origins configuration enable automatic browser-based authentication.
 
 ### 2. Configure the Power
 

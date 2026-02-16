@@ -12,9 +12,9 @@ Kiro Power - MCP (Model Context Protocol) server integration
 
 ## Configuration Files
 
-- `power.json` - Power metadata, MCP server configuration
-- `POWER.md` - User-facing documentation
+- `POWER.md` - User-facing documentation with frontmatter metadata
 - `README.md` - Installation and setup guide
+- `mcp.json` - MCP server configuration
 
 ## MCP Server Configuration
 

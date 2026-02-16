@@ -25,9 +25,12 @@ The Trello Power enables you to interact with Trello's project management featur
 
 ## Features
 
-- **Boards**: List and get board details
+- **Boards**: List and get board details, list board labels
 - **Lists**: List and create board lists
 - **Cards**: List, create, and update cards (including moving between lists)
+- **Card Members**: Add, remove, and list members assigned to cards
+- **Card Labels**: Add, remove, list, and filter cards by labels
+- **Board Members**: Add, remove, update, invite, and list board members with permissions
 - **Organizations**: Manage workspaces, boards, and team members
 
 ## Quick Start
@@ -103,13 +106,39 @@ Ask Kiro to:
 - "Create a card called 'Fix login bug' in the 'Backlog' list"
 - "Move the card '[Card Name]' to the 'Done' list"
 - "Update the description of card '[Card Name]'"
+- "Get details for card '[Card Name]'"
+- "Add [Member Name] to the card '[Card Name]'"
+- "Remove [Member Name] from card '[Card Name]'"
+- "List all members assigned to card '[Card Name]'"
+- "Add the 'Bug' label to card '[Card Name]'"
+- "Remove the 'Bug' label from card '[Card Name]'"
+- "List all labels on card '[Card Name]'"
+- "Filter cards on [Board Name] by the 'Priority' label"
+
+### Managing Board Members
+
+Ask Kiro to:
+- "List all members of the [Board Name] board"
+- "Add [User Email] to the [Board Name] board"
+- "Remove [Member Name] from the [Board Name] board"
+- "Update [Member Name]'s permission to admin on [Board Name]"
+- "Invite [Email] to join the [Board Name] board"
+
+### Managing Board Labels
+
+Ask Kiro to:
+- "List all available labels on the [Board Name] board"
+- "Show me what labels are available on my project board"
 
 ### Organization Management
 
 Ask Kiro to:
 - "List all my Trello organizations"
+- "Show me details for the [Organization Name] workspace"
 - "Show me boards in the [Organization Name] workspace"
 - "Who are the members of [Organization Name]?"
+- "Add [User Email] to the [Organization Name] organization"
+- "Remove [Member Name] from [Organization Name]"
 
 ## Authentication Details
 

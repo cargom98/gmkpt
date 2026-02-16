@@ -15,8 +15,13 @@
         "get_board",
         "list_board_lists",
         "list_board_cards",
+        "list_board_labels",
         "get_card",
+        "list_card_members",
+        "list_card_labels",
+        "list_board_members",
         "list_organizations",
+        "get_organization",
         "list_organization_boards",
         "list_organization_members"
       ]

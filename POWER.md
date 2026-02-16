@@ -1,3 +1,19 @@
+---
+name: Trello
+description: Manage Trello boards, lists, cards, and organizations directly from Kiro
+author: cargom98
+keywords:
+  - trello
+  - project management
+  - boards
+  - cards
+  - lists
+  - kanban
+  - task management
+  - organization
+  - workflow
+---
+
 # Trello Power for Kiro
 
 Integrate Trello with Kiro to manage boards, lists, cards, and organizations directly from your development environment.

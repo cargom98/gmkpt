@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+     "trello": {
+      "command": "uvx",
+      "args": [
+        "--from",
+        "trello-mcp-server",
+        "trello_mcp_server"
+      ],
+      "env": {
+        "TRELLO_API_KEY": ""
+      },
+      "autoApprove": []
+    }
+  }
+}

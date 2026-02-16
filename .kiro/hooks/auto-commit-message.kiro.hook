@@ -1,0 +1,13 @@
+{
+  "enabled": true,
+  "name": "Auto Commit Message",
+  "description": "Automatically generates a conventional commit message from git diff when requested",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Analyze the current git diff and generate a conventional commit message following the format: type(scope): subject. Use types like feat, fix, docs, style, refactor, test, chore. Keep the subject line under 50 characters, use imperative mood, and don't end with a period. If there are significant changes, add a body explaining what and why (not how)."
+  }
+}

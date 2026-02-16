@@ -32,7 +32,7 @@ The power uses the following MCP server setup:
 ## External Dependencies
 
 - Trello API (REST API via OAuth 1.0a)
-- Upstream MCP server: https://github.com/cargom98/gm-trello-mcp
+- Upstream MCP server: https://github.com/cargom98/gmkpt
 
 ## Common Commands
 
@@ -42,7 +42,7 @@ No build or test commands - this is a configuration-based power that wraps an ex
 
 Manual installation:
 ```bash
-git clone https://github.com/cargom98/gm-trello-mcp ~/.kiro/powers/trello
+git clone https://github.com/cargom98/gmkpt ~/.kiro/powers/trello
 ```
 
 Or install via Kiro's Powers UI (Command Palette → "Powers: Configure").

@@ -37,17 +37,19 @@ Visit [Trello Power-Ups Admin](https://trello.com/power-ups/admin/new) and creat
 
 ### 2. Configure the Power
 
-After installing this power, you'll need to set your API key:
+When you first use the Trello power, Kiro will automatically prompt you for your API key. Simply paste your API key when asked, and Kiro will configure everything for you automatically.
+
+If you need to update your API key later:
 
 1. Open your MCP configuration (Command Palette → "MCP: Open Configuration")
-2. Find the `trello` configuration
-3. Replace `${TRELLO_API_KEY}` with your actual API key
+2. Find the `power-gmkpt-trello` configuration
+3. Update the `TRELLO_API_KEY` value
 
 Example configuration:
 ```json
 {
   "mcpServers": {
-    "trello": {
+    "power-gmkpt-trello": {
       "command": "uvx",
       "args": ["trello-mcp-server"],
       "env": {
@@ -146,12 +148,12 @@ If you get permission errors:
 - [Trello API Documentation](https://developer.atlassian.com/cloud/trello/)
 - [Get API Key](https://trello.com/power-ups/admin/new)
 - [Manage Tokens](https://trello.com/my/account)
-- [GitHub Repository](https://github.com/cargom98/gm-trello-mcp)
+- [GitHub Repository](https://github.com/cargom98/gmkpt)
 
 ## Support
 
 For issues or questions:
-- Check the [GitHub Issues](https://github.com/cargom98/gm-trello-mcp/issues)
+- Check the [GitHub Issues](https://github.com/cargom98/gmkpt/issues)
 - Review the authentication guide in the repository
 - Consult Trello's API documentation
 

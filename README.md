@@ -15,7 +15,7 @@ A Kiro Power that integrates the Trello MCP server, enabling you to manage Trell
 
 1. Clone this repository to your Kiro powers directory:
    ```bash
-   git clone https://github.com/cargom98/gm-trello-mcp ~/.kiro/powers/trello
+   git clone https://github.com/cargom98/gmkpt ~/.kiro/powers/trello
    ```
 
 2. Ensure `uv` is installed (required for uvx):
@@ -60,8 +60,8 @@ See [POWER.md](POWER.md) for detailed workflows and examples.
 
 ## Support
 
-For issues or questions, visit the [GitHub repository](https://github.com/cargom98/gm-trello-mcp).
+For issues or questions, visit the [GitHub repository](https://github.com/cargom98/gmkpt).
 
 ## License
 
-See the [upstream repository](https://github.com/cargom98/gm-trello-mcp) for license details.
+See the [upstream repository](https://github.com/cargom98/gmkpt) for license details.
